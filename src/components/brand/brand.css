@@ -1,0 +1,23 @@
+.ziloop_brand img {
+    width: 100px;
+    height: 100px;
+}
+.ziloop_brand-sdgs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border: 10px;
+    border-radius: 10px;
+    border-style: groove;
+    border-color: rgb(29, 3, 102);
+}
+.ziloop_brand-content {
+    text-align: center;
+    text-decoration: underline;
+    color: rgba(56, 7, 233, 0.952);
+    text-shadow: 10%;
+    font-family: var(font-family);
+    font-size: 30px;
+    font-weight: 600;
+}

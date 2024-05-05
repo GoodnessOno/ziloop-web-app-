@@ -1,17 +1,18 @@
-// Filename - App.js
-
 import React from "react";
-import { Navbar } from "./components";
+import { Header, Navbar, Brand } from "./components";
 import {
 	BrowserRouter as Router,
 	Routes,
 	Route,
 } from "react-router-dom";
 import { Home, Blog, Ziloop } from "./pages";
+import "./App.css";
 
 
 function App() {
 	return (
+    <div className="App">
+    <div className="gradient__bg">
 		<Router>
 			<Navbar />
 			<Routes>
@@ -20,6 +21,10 @@ function App() {
 				<Route path="/blog" element={<Blog />} />
 			</Routes>
 		</Router>
+    <Header />
+    </div>
+      <Brand />
+    </div>
 	);
 }
 
