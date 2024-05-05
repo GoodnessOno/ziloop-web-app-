@@ -1,0 +1,104 @@
+.ziloop_header {
+    display: flex;
+}
+.ziloop_header-content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+
+    margin-right: 5rem;
+}
+.ziloop_header-content h1 {
+    font-family: var(font-family);
+    font-weight: 800;
+    font-size: 42px;
+    line-height: 75px;
+    letter-spacing: -0.04em;
+}
+.ziloop_header-content_input{
+    width: 100%;
+    margin: 2rem 0 1rem;
+    display: flex;
+    flex-direction: row;
+}
+.ziloop_header-content_input input {
+    flex: 0.5;
+    min-height: 50px;
+    width: 100%;
+    background: #080255;
+    color: rgb(255, 255, 255);
+    border-radius: 5px 0px 0px 5px;
+    font-family: var(font-family);
+    font-style: normal;
+    font-weight: normal;
+    line-height: 27px;
+    font-size: 20px;
+}
+.ziloop_header-content_input button {
+    background-color: rgb(0, 255, 13);
+    border-radius: 0px 5px 5px 0px;
+    width: 100%;
+    flex: 0.5;
+    min-height: 50px;
+    color: rgb(252, 252, 252);
+    font-family: var(font-family);
+    font-style: normal;
+    font-weight: normal;
+    line-height: 27px;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 0 1rem;
+}
+.ziloop_header-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ziloop_header-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+@media screen and (max-width: 1050px) {
+    .ziloop_header {
+        flex-direction: column;
+    }
+
+    .ziloop_header-content {
+        margin: 0 0 3rem;
+    }
+}
+@media screen and (max-width: 650px) {
+    .ziloop_header-content h1 {
+        font-size: 48px;
+        line-height: 60px;
+    }
+    .ziloop_header p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .ziloop_header-content_input input,
+    .ziloop_header-content_input button {
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
+@media screen and (max-width: 490px) {
+    .ziloop_header-content h1 {
+        font-size: 36px;
+        line-height: 24px;
+    }
+    .ziloop_header-content p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .ziloop_header-content_input input,
+    .ziloop_header-content_input button {
+        font-size: 12px;
+        line-height: 16px;
+    }
+}
