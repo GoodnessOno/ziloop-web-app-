@@ -1,13 +1,17 @@
 import React from 'react'
 import './home.css'
-import { Navbar, Header } from '../../components'
+import { Navbar, Header, Brand } from '../../components'
 
 function Home() {
     return (
-        <div>
+        <div className="App">
+          <div className='gradient__bg'>
             <Navbar />
             <Header />
+          </div>
+            <Brand />
         </div>
+
     )
 }
 

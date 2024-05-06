@@ -5,6 +5,7 @@ import {
 	Route,
 } from "react-router-dom";
 import { Home, Blog, Ziloop } from "./pages";
+import { Header, Navbar, Brand } from "./components";
 import "./App.css";
 
 

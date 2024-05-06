@@ -21,3 +21,6 @@
     font-size: 30px;
     font-weight: 600;
 }
+.ziloop_brand {
+    background-color: var(--color-bg);
+}
