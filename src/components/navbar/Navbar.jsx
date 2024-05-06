@@ -6,7 +6,7 @@ import './navbar.css'
 //BEM - Block Element Modifier
 const Menu = () => (
     <>  
-        <p><a href="/home">HOME</a></p>
+        <p><a href="/">HOME</a></p>
         <p><a href="/ziloop">WHO-WE-ARE?</a></p>
         <p><a href="/possibility">SUSTAINABILITY</a></p>
         <p><a href="/features">SHOWROOM</a></p>
