@@ -1,5 +1,4 @@
 import React from "react";
-import { Header, Navbar, Brand } from "./components";
 import {
 	BrowserRouter as Router,
 	Routes,
@@ -14,16 +13,13 @@ function App() {
     <div className="App">
     <div className="gradient__bg">
 		<Router>
-			<Navbar />
 			<Routes>
 				<Route exact path="/" element={<Home />} />
 				<Route path="/ziloop" element={<Ziloop />} />
 				<Route path="/blog" element={<Blog />} />
 			</Routes>
 		</Router>
-    <Header />
     </div>
-      <Brand />
     </div>
 	);
 }
