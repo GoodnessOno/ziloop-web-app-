@@ -1,5 +1,5 @@
 import React from 'react';
-import './ziloop.css'
+import './aboutus.css'
 import Header from '../../components/header/Header';
 import Navbar from '../../components/navbar/Navbar';
 

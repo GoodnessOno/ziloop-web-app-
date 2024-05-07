@@ -4,7 +4,7 @@ import {
 	Routes,
 	Route,
 } from "react-router-dom";
-import { Home, Blog, Ziloop } from "./pages";
+import { Home, Blog, Aboutus } from "./pages";
 import "./App.css";
 
 
@@ -15,7 +15,7 @@ function App() {
 		<Router>
 			<Routes>
 				<Route exact path="/" element={<Home />} />
-				<Route path="/ziloop" element={<Ziloop />} />
+				<Route path="/aboutus" element={<Aboutus />} />
 				<Route path="/blog" element={<Blog />} />
 			</Routes>
 		</Router>

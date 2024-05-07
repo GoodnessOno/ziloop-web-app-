@@ -7,7 +7,7 @@ import './navbar.css'
 const Menu = () => (
     <>  
         <p><a href="/">HOME</a></p>
-        <p><a href="/ziloop">WHO-WE-ARE?</a></p>
+        <p><a href="/aboutus">WHO-WE-ARE?</a></p>
         <p><a href="/possibility">SUSTAINABILITY</a></p>
         <p><a href="/features">SHOWROOM</a></p>
         <p><a href="/blog">BLOG</a></p>
