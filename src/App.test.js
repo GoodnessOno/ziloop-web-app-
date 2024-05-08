@@ -1,8 +1,11 @@
-import { render, screen } from '@testing-library/react';
-import { Home } from './pages';
+import { render, screen, act } from '@testing-library/react';
+import { Header } from './components';
 
-test('renders "Possibility" in the header', () => {
-  render(<Home />);
-  const headerElement = screen.getByRole('heading', {name: /possibility/i });
+test('renders "POWERING TOMORROW, SUSTAINABLY TODAY" in the header', async () => {
+  await act(async () => {
+    render(<Header />);
+  });
+  const headerElement = screen.getByText('POWERING TOMORROW, SUSTAINABLY TODAY');
   expect(headerElement).toBeInTheDocument();
 });
+  
